@@ -43,3 +43,4 @@ Removendo desnecessarios
 *.rar
 /artifacts/
 /mri_Qbox/cache/
+/txData/
