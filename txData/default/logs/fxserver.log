@@ -1,0 +1,484 @@
+================================================================
+======== Log Rotated - 26/10/2024 00:00:00                      
+================================================================
+[   script:rhd_garage] [rhd_garage] [INFO] Remove cache from DJotaBR
+[             TXADMIN] ================================================================ 
+[             TXADMIN] ======== [32836] FXServer Starting - 26/10/2024 00:00:46         
+[             TXADMIN] ================================================================ 
+[           resources] Scanning resources.
+[ resources:qbx_drugs] Warning: qbx_drugs exists in more than one place (C:\MRI\mri_Qbox\resources\[parados]\qbx_drugs is used, the duplicate is C:\MRI\mri_Qbox\resources\[qbx]\qbx_drugs)
+[           resources] Found 192 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.3.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:K9addon:st] Asset K9addon/a_c_k9^head_diff_000_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:K9addon:st] Asset K9addon/a_c_k9^head_diff_000_b_whi.ytd uses 32.0 MiB of physical memory.
+[resources:K9addon:st] Asset K9addon/a_c_k9^head_diff_000_c_whi.ytd uses 32.0 MiB of physical memory.
+[resources:K9addon:st] Asset K9addon/a_c_k9^head_diff_000_d_whi.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource K9addon (4 warnings)
+[           resources] Started resource dealer_map
+[           resources] Started resource gordela_petshop
+[           resources] Started resource gordela_props
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for qbx_core
+[     script:qbx_core] [qbx_core] [INFO] Stopping hardcap...
+[           resources] Stopping resource hardcap
+[           resources] Started resource qbx_core
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_inventory
+[ script:ox_inventory] permissoes	table: 000001713D54F980
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for qbx_adminmenu
+[           resources] Started resource qbx_adminmenu
+[    c-scripting-core] Creating script environments for qbx_interior
+[ script:qbx_interior] [qbx_interior] [WARN] This resource is still using the deprecated qbx_core utils!
+[ script:qbx_interior] [qbx_interior] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_interior
+[    c-scripting-core] Creating script environments for Renewed-Weathersync
+[           resources] Started resource Renewed-Weathersync
+[    c-scripting-core] Creating script environments for qbx_apartments
+[script:qbx_apartment] [qbx_apartments] [WARN] This resource is still using the deprecated qbx_core utils!
+[script:qbx_apartment] [qbx_apartments] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_apartments
+[    c-scripting-core] Creating script environments for qbx_bankrobbery
+[script:qbx_bankrobbe] [qbx_bankrobbery] [WARN] This resource is still using the deprecated qbx_core utils!
+[script:qbx_bankrobbe] [qbx_bankrobbery] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_bankrobbery
+[    c-scripting-core] Creating script environments for qbx_binoculars
+[           resources] Started resource qbx_binoculars
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for fmsdk
+[        script:fmsdk] Error: ❌ Invalid config settings:
+[        script:fmsdk]  {
+[        script:fmsdk]   "logs.baseEvents": [
+[        script:fmsdk]     "Invalid type: Expected boolean but received undefined"
+[        script:fmsdk]   ]
+[        script:fmsdk] }
+[        script:fmsdk] Error loading script dist/server.js in resource fmsdk: Error: Invalid config settings
+[        script:fmsdk] stack:
+[        script:fmsdk] Error: Invalid config settings
+[        script:fmsdk]     at loadConfig (@fmsdk/dist/server.js:24777:13)
+[        script:fmsdk]     at @fmsdk/dist/server.js:24782:14
+[    c-scripting-core] Failed to load script dist/server.js.
+[           resources] Started resource fmsdk
+[    c-scripting-core] Creating script environments for qbx_camera
+[           resources] Started resource qbx_camera
+[    c-scripting-core] Creating script environments for qbx_cityhall
+[           resources] Started resource qbx_cityhall
+[    c-scripting-core] Creating script environments for qbx_customs
+[           resources] Started resource qbx_customs
+[           resources] Started resource qbx_density
+[    c-scripting-core] Creating script environments for qbx_fireworks
+[           resources] Started resource qbx_fireworks
+[    c-scripting-core] Creating script environments for qbx_garbagejob
+[script:qbx_garbagejo] [qbx_garbagejob] [WARN] This resource is still using the deprecated qbx_core utils!
+[script:qbx_garbagejo] [qbx_garbagejob] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_garbagejob
+[    c-scripting-core] Creating script environments for qbx_houses
+[   script:qbx_houses] [qbx_houses] [WARN] This resource is still using the deprecated qbx_core utils!
+[   script:qbx_houses] [qbx_houses] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_houses
+[           resources] Started resource MugShotBase64
+[    c-scripting-core] Creating script environments for qbx_idcard
+[           resources] Started resource qbx_idcard
+[    c-scripting-core] Creating script environments for qbx_jewelery
+[           resources] Started resource qbx_jewelery
+[    c-scripting-core] Creating script environments for qbx_lapraces
+[ script:qbx_lapraces] [qbx_lapraces] [WARN] This resource is still using the deprecated qbx_core utils!
+[ script:qbx_lapraces] [qbx_lapraces] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_lapraces
+[           resources] Started resource qbx_lockpick
+[    c-scripting-core] Creating script environments for qbx_management
+[           resources] Started resource qbx_management
+[    c-scripting-core] Creating script environments for qbx_mechanicjob
+[           resources] Started resource qbx_mechanicjob
+[    c-scripting-core] Creating script environments for qbx_medical
+[           resources] Started resource qbx_medical
+[    c-scripting-core] Creating script environments for qbx_pawnshop
+[           resources] Started resource qbx_pawnshop
+[    c-scripting-core] Creating script environments for qbx_photomode
+[           resources] Started resource qbx_photomode
+[    c-scripting-core] Creating script environments for qbx_radialmenu
+[           resources] Started resource qbx_radialmenu
+[    c-scripting-core] Creating script environments for qbx_recyclejob
+[           resources] Started resource qbx_recyclejob
+[    c-scripting-core] Creating script environments for qbx_scrapyard
+[           resources] Started resource qbx_scrapyard
+[    c-scripting-core] Creating script environments for qbx_seatbelt
+[           resources] Started resource qbx_seatbelt
+[    c-scripting-core] Creating script environments for qbx_smallresources
+[           resources] Started resource qbx_smallresources
+[    c-scripting-core] Creating script environments for qbx_streetraces
+[script:qbx_streetrac] [qbx_streetraces] [WARN] This resource is still using the deprecated qbx_core utils!
+[script:qbx_streetrac] [qbx_streetraces] [WARN] If you are the author, please update to use the new lib module. If you are not, please tell them to update!
+[           resources] Started resource qbx_streetraces
+[    c-scripting-core] Creating script environments for qbx_towjob
+[           resources] Started resource qbx_towjob
+[    c-scripting-core] Creating script environments for qbx_truckrobbery
+[           resources] Started resource qbx_truckrobbery
+[    c-scripting-core] Creating script environments for qbx_vehiclefailure
+[           resources] Started resource qbx_vehiclefailure
+[    c-scripting-core] Creating script environments for qbx_vehicles
+[           resources] Started resource qbx_vehicles
+[    c-scripting-core] Creating script environments for qbx_vehiclesales
+[           resources] Started resource qbx_vehiclesales
+[    c-scripting-core] Creating script environments for qbx_vehicleshop
+[           resources] Started resource qbx_vehicleshop
+[    c-scripting-core] Creating script environments for qbx_weed
+[           resources] Started resource qbx_weed
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for bl_bridge
+[    script:bl_bridge] [ox] Loaded module inventory
+[    script:bl_bridge] [qb] Loaded module core
+[    script:bl_bridge] [ox] Loaded module notify
+[           resources] Started resource bl_bridge
+[           resources] Started resource bob74_ipl
+[           resources] Started resource cfx-anes-gates
+[    c-scripting-core] Creating script environments for discord-screenshot
+[           resources] Started resource discord-screenshot
+[           resources] Started resource fivem-freecam
+[    c-scripting-core] Creating script environments for fm-logs
+[      script:fm-logs] --------------------------------------------------
+[      script:fm-logs] |                                                |
+[      script:fm-logs] |                 FIVEMERR LOGGER                |
+[      script:fm-logs] |                   NOT STARTED                  |
+[      script:fm-logs] |                  VERSION 1.0.2                 |
+[      script:fm-logs] |                                                |
+[      script:fm-logs] --------------------------------------------------
+[      script:fm-logs] api token is not set
+[           resources] Started resource fm-logs
+[    c-scripting-core] Creating script environments for illenium-appearance
+[       script:ox_lib] Unable to determine current resource version for 'illenium-appearance' 
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource mhacking
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for scully_emotemenu
+[script:scully_emotem] [scully_emotemenu] [INFO] Prop dump created.
+[           resources] Started resource scully_emotemenu
+[    c-scripting-core] Creating script environments for ultra-voltlab
+[           resources] Started resource ultra-voltlab
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for mm_radio
+[           resources] Started resource mm_radio
+[    c-scripting-core] Creating script environments for npwd_qbx_mail
+[           resources] Started resource npwd_qbx_mail
+[    c-scripting-core] Creating script environments for qbx_npwd
+[           resources] Started resource qbx_npwd
+[    c-scripting-core] Creating script environments for npwd
+[           resources] Started resource npwd
+[    c-scripting-core] Creating script environments for ND_Police
+[           resources] Started resource ND_Police
+[           resources] Started resource RageUI
+[    c-scripting-core] Creating script environments for Syn_Sit
+[           resources] Started resource Syn_Sit
+[    c-scripting-core] Creating script environments for angelicxs-CivilianJobs
+[           resources] Started resource angelicxs-CivilianJobs
+[    c-scripting-core] Creating script environments for ars_ambulancejob
+[           resources] Started resource ars_ambulancejob
+[    c-scripting-core] Creating script environments for ars_hunting
+[           resources] Started resource ars_hunting
+[           resources] Started resource cdn-fool
+[    c-scripting-core] Creating script environments for cdn-fuel
+[           resources] Started resource cdn-fuel
+[           resources] Started resource crouch_crawl
+[    c-scripting-core] Creating script environments for cuchi_computer
+[           resources] Started resource cuchi_computer
+[    c-scripting-core] Creating script environments for cw-driftchip
+[           resources] Started resource cw-driftchip
+[    c-scripting-core] Creating script environments for cw-performance
+[           resources] Started resource cw-performance
+[    c-scripting-core] Creating script environments for cw-racingapp
+[           resources] Started resource cw-racingapp
+[    c-scripting-core] Creating script environments for cw-rep
+[           resources] Started resource cw-rep
+[    c-scripting-core] Creating script environments for dom_trucking
+[           resources] Started resource dom_trucking
+[    c-scripting-core] Creating script environments for hookers
+[           resources] Started resource hookers
+[           resources] Started resource idle
+[    c-scripting-core] Creating script environments for it-drugs
+[     script:it-drugs] [it-drugs] [INFO] Waiting for Database to be setup
+[  resources:it-drugs] Warning: could not find client_script `client/cl_notarget.lua` (defined in fxmanifest.lua:19)
+[           resources] Started resource it-drugs (1 warning)
+[    c-scripting-core] Creating script environments for jim-mining
+[           resources] Started resource jim-mining
+[    c-scripting-core] Creating script environments for jim-recycle
+[  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
+[           resources] Started resource jim-recycle
+[    c-scripting-core] Creating script environments for jim-trains
+[   script:jim-trains] Bridge: 'ox_target' export found 
+[   script:jim-trains] Bridge: 'qb-core' export found 
+[   script:jim-trains] Bridge: 'ox_lib' export found 
+[   script:jim-trains] Bridge: 'qb-target' export found 
+[   script:jim-trains] Bridge: 'qbx_core' export found 
+[   script:jim-trains] Bridge: 'ox_inventory' export found 
+[   script:jim-trains] Bridge: Loading 612 Items from ox_inventory
+[   script:jim-trains] Bridge: Loading 0 Vehicles from qb-core
+[   script:jim-trains] Bridge: Loading 1 Jobs from qbx_core	Bridge: Loading 1 Gangs from qbx_core
+[           resources] Started resource jim-trains
+[           resources] Started resource jim_bridge
+[    c-scripting-core] Creating script environments for kloud-farmjob
+[           resources] Started resource kloud-farmjob
+[    c-scripting-core] Creating script environments for lunar_fishing
+[           resources] Started resource lunar_fishing
+[    c-scripting-core] Creating script environments for lvc
+[           resources] Started resource lvc
+[    c-scripting-core] Creating script environments for maji-gasdelivery
+[           resources] Started resource maji-gasdelivery
+[    c-scripting-core] Creating script environments for mri_Qadmin
+[           resources] Started resource mri_Qadmin
+[    c-scripting-core] Creating script environments for mri_Qbackpack
+[           resources] Started resource mri_Qbackpack
+[    c-scripting-core] Creating script environments for mri_Qblips
+[           resources] Started resource mri_Qblips
+[    c-scripting-core] Creating script environments for mri_Qboombox
+[ script:mri_Qboombox] Recurso mri_Qboombox iniciado. Verificando/criando tabelas...
+[resources:mri_Qboomb] Asset mri_Qboombox/gordela_boombox3.ydr uses 32.0 MiB of virtual memory.
+[           resources] Started resource mri_Qboombox (1 warning)
+[    c-scripting-core] Creating script environments for mri_Qbox
+[           resources] Started resource mri_Qbox
+[    c-scripting-core] Creating script environments for mri_Qcarkeys
+[           resources] Started resource mri_Qcarkeys
+[    c-scripting-core] Creating script environments for mri_Qcarwash
+[           resources] Started resource mri_Qcarwash
+[    c-scripting-core] Creating script environments for mri_Qcrafting
+[           resources] Started resource mri_Qcrafting
+[    c-scripting-core] Creating script environments for mri_Qdraw
+[           resources] Started resource mri_Qdraw
+[    c-scripting-core] Creating script environments for mri_Qelevators
+[           resources] Started resource mri_Qelevators
+[    c-scripting-core] Creating script environments for mri_QexoticPaints
+[           resources] Started resource mri_QexoticPaints
+[    c-scripting-core] Creating script environments for mri_Qfarm
+[    script:mri_Qfarm] Recurso mri_Qfarm iniciado. Verificando/criando tabelas...
+[           resources] Started resource mri_Qfarm
+[    c-scripting-core] Creating script environments for mri_Qfleecaheist
+[           resources] Started resource mri_Qfleecaheist
+[    c-scripting-core] Creating script environments for mri_Qfps
+[           resources] Started resource mri_Qfps
+[    c-scripting-core] Creating script environments for mri_Qhud
+[           resources] Started resource mri_Qhud
+[    c-scripting-core] Creating script environments for mri_Qjobcenter
+[           resources] Started resource mri_Qjobcenter
+[    c-scripting-core] Creating script environments for mri_Qjobsystem
+[           resources] Started resource mri_Qjobsystem
+[           resources] Started resource mri_Qloadscreen
+[           resources] Started resource mri_Qminigames
+[    c-scripting-core] Creating script environments for mri_Qnitro
+[           resources] Started resource mri_Qnitro
+[    c-scripting-core] Creating script environments for mri_Qnpc
+[           resources] Started resource mri_Qnpc
+[    c-scripting-core] Creating script environments for mri_Qobjects
+[           resources] Started resource mri_Qobjects
+[    c-scripting-core] Creating script environments for mri_Qpaintjob
+[           resources] Started resource mri_Qpaintjob
+[    c-scripting-core] Creating script environments for mri_Qpets
+[           resources] Started resource mri_Qpets
+[    c-scripting-core] Creating script environments for mri_Qrobnpcs
+[           resources] Started resource mri_Qrobnpcs
+[    c-scripting-core] Creating script environments for mri_Qsafezones
+[           resources] Started resource mri_Qsafezones
+[    c-scripting-core] Creating script environments for mri_Qshootmodes
+[           resources] Started resource mri_Qshootmodes
+[    c-scripting-core] Creating script environments for mri_Qspotlights
+[           resources] Started resource mri_Qspotlights
+[    c-scripting-core] Creating script environments for mri_Qstashes
+[           resources] Started resource mri_Qstashes
+[    c-scripting-core] Creating script environments for mri_Qstorerobbery
+[           resources] Started resource mri_Qstorerobbery
+[           resources] Started resource mri_Qvehcontrol
+[    c-scripting-core] Creating script environments for mri_Qvinewood
+[script:mri_Qvinewood] [mri_Qvinewood] Framework found: qbcore
+[           resources] Started resource mri_Qvinewood
+[    c-scripting-core] Creating script environments for object_gizmo
+[           resources] Started resource object_gizmo
+[    c-scripting-core] Creating script environments for ox_compat
+[           resources] Started resource ox_compat
+[    c-scripting-core] Creating script environments for pickle_prisons
+[           resources] Started resource pickle_prisons
+[    c-scripting-core] Creating script environments for pickle_waypoints
+[           resources] Started resource pickle_waypoints
+[    c-scripting-core] Creating script environments for ps-banking
+[           resources] Started resource ps-banking
+[    c-scripting-core] Creating script environments for ps-buffs
+[           resources] Started resource ps-buffs
+[    c-scripting-core] Creating script environments for ps-dispatch
+[           resources] Started resource ps-dispatch
+[    c-scripting-core] Creating script environments for ps-mdt
+[           resources] Started resource ps-mdt
+[    c-scripting-core] Creating script environments for randol_cargo
+[           resources] Started resource randol_cargo
+[    c-scripting-core] Creating script environments for randol_carheist
+[           resources] Started resource randol_carheist
+[    c-scripting-core] Creating script environments for randol_carmeet
+[           resources] Started resource randol_carmeet
+[    c-scripting-core] Creating script environments for randol_cityworker
+[           resources] Started resource randol_cityworker
+[    c-scripting-core] Creating script environments for randol_combatlog
+[           resources] Started resource randol_combatlog
+[    c-scripting-core] Creating script environments for randol_exporting
+[           resources] Started resource randol_exporting
+[    c-scripting-core] Creating script environments for randol_ghosthunting
+[           resources] Started resource randol_ghosthunting
+[    c-scripting-core] Creating script environments for randol_gscache
+[           resources] Started resource randol_gscache
+[    c-scripting-core] Creating script environments for randol_notes
+[           resources] Started resource randol_notes
+[    c-scripting-core] Creating script environments for randol_stresszones
+[           resources] Started resource randol_stresszones
+[           resources] Started resource rep-enginewire
+[    c-scripting-core] Creating script environments for rep-talkNPC
+[           resources] Started resource rep-talkNPC
+[    c-scripting-core] Creating script environments for rhd_garage
+[           resources] Started resource rhd_garage
+[           resources] Started resource ForestsOfSA_N
+[           resources] Started resource ForestsOfSA_S
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[      script:webpack] chat: started building webpack.config.js
+[    c-resources-core] Could not start dependency chat for resource cc-chat.
+[ citizen-server-impl] Couldn't start resource cc-chat.
+[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[      script:webpack] webpack is busy: we are waiting to compile chat (webpack.config.js)
+[    c-resources-core] Could not start dependency chat for resource cc-chat.
+[    c-resources-core] Could not start dependency cc-chat for resource cc-rpchat.
+[ citizen-server-impl] Couldn't start resource cc-rpchat.
+[    c-scripting-core] Creating script environments for gordela_river_map
+[script:gordela_river] Los Santos River | by Gordela
+[script:gordela_river] Current version 1.0.2
+[script:gordela_river] Tebex Store: https://gordela-store.tebex.io/
+[script:gordela_river] Discord: https://discord.gg/tyKTs4QyYA
+[           resources] Started resource gordela_river_map
+[    c-scripting-core] Creating script environments for md-houserobberies
+[           resources] Started resource md-houserobberies
+[    c-scripting-core] Creating script environments for mri_Qcommandlist
+[           resources] Started resource mri_Qcommandlist
+[    c-scripting-core] Creating script environments for mri_Qdev
+[           resources] Started resource mri_Qdev
+[    c-scripting-core] Creating script environments for ps-adminmenu
+[           resources] Started resource ps-adminmenu
+[    c-scripting-core] Creating script environments for ps-housing
+[           resources] Started resource ps-housing
+[    c-scripting-core] Creating script environments for ps-realtor
+[           resources] Started resource ps-realtor
+[    c-scripting-core] Creating script environments for qbx_spawn
+[           resources] Started resource qbx_spawn
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://forum.cfx.re/t/celebrating-one-year-with-rockstar-games/5269938#fivem-and-redm-6
+[script:scully_emotem] [scully_emotemenu] [INFO] Current Version: 1.9.9f
+[script:scully_emotem] [scully_emotemenu] [INFO] Latest Version: 1.9.9f
+[script:scully_emotem] [scully_emotemenu] [INFO] You are running the latest version.
+[   script:jim-trains] 'jim_bridge' - You are running the latest version. (1.0.14)
+[   script:jim-trains] Version Check: Running: 1.0 Latest: 1.0
+[   script:jim-trains] 'jim-trains' - You are running the latest version. (1.0)
+[      script:webpack] webpack is busy: we are waiting to compile chat (webpack.config.js)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[   script:mri_Qadmin] [mri_Qbox PAINEL ADMIN QBOX] Database carregada. << modificações feitas por .mur4i
+[ script:mri_Qstashes] [mri_Qstashes] - Loaded database.
+[script:md-houserobbe]  logs disabled for md-drugs
+[ citizen-server-impl] server thread hitch warning: timer interval of 5148 milliseconds
+[     script:cdn-fuel] 
+[     script:cdn-fuel] ----------------------------------------------------------------------------------
+[     script:cdn-fuel] cdn-fuel (cdn-fuel)'s latest version is: 2.1.9!
+[     script:cdn-fuel] Your current version: 2.1.9!
+[     script:cdn-fuel] If needed, update from https://github.com/CodineDev/cdn-fuel
+[     script:cdn-fuel] ----------------------------------------------------------------------------------
+[script:kloud-farmjob] kloud-farmjob (kloud-farmjob) check for updates failed 
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ script:mri_Qboombox] Tabela verificada/criada: 1
+[    script:mri_Qfarm] Tabela verificada/criada: 1
+[    script:mri_Qfarm] Todas as tabelas foram verificadas/criadas.
+[   script:ps-housing] Tabela `properties` carregada com sucesso!
+[ script:mri_Qboombox] Tabela verificada/criada: 2
+[ script:mri_Qboombox] Tabela verificada/criada: 3
+[ script:mri_Qboombox] Tabela verificada/criada: 4
+[ script:mri_Qboombox] Todas as tabelas foram verificadas/criadas.
+[script:md-houserobbe]  Your Version:2.8 | Current Version:2.8
+[script:md-houserobbe] 
+[       script:ox_lib] An update is available for ox_lib (current version: 3.25.0)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.27.0
+[       script:ox_lib] An update is available for qbx_management (current version: 1.1.0)
+[       script:ox_lib] https://github.com/Qbox-project/qbx_management/releases/tag/v1.3.3
+[       script:ox_lib] An update is available for mm_radio (current version: 2.0.6)
+[       script:ox_lib] https://github.com/SOH69/mm_radio/releases/tag/v2.0.7
+[       script:ox_lib] An update is available for qbx_fireworks (current version: 1.2.1)
+[       script:ox_lib] https://github.com/Qbox-project/qbx_fireworks/releases/tag/v1.3.0
+[       script:ox_lib] An update is available for ox_doorlock (current version: 1.16.1)
+[       script:ox_lib] https://github.com/overextended/ox_doorlock/releases/tag/v1.18.0
+[script:kloud-farmjob] QB Core found! Loading QB Core functions
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 612 items
+[script:kloud-farmjob] Thanks for using my script! For support and questions join my Discord Server! 
+[script:kloud-farmjob] https://discord.gg/hpmN8D4JZt
+[          script:lvc] 	|	       LATEST STABLE: 3.2.9                      |
+[          script:lvc] 	|________________________________________________________|
+[          script:lvc] 	|      Updates, Support, Feedback: discord.link/LVC      |
+[          script:lvc] 	|________________________________________________________|
+[          script:lvc] 
+[          script:lvc] 
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://orion-group-46g8mq.users.cfx.re/
+[      script:webpack] webpack is busy: we are waiting to compile chat (webpack.config.js)
+[      script:webpack] webpack is busy: we are waiting to compile chat (webpack.config.js)
+[      script:webpack] webpack is busy: we are waiting to compile chat (webpack.config.js)
+[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[    c-scripting-core] Creating script environments for chat
+[    c-scripting-core] Creating script environments for cc-chat
+[    c-scripting-core] Creating script environments for cc-rpchat
+[           resources] Started resource cc-rpchat
+[           resources] Started resource cc-chat
+[           resources] Started resource chat
+[      script:webpack] chat: started building webpack.config.js
+[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[script:qbx_jewelery:] Warning: [natives] TRIGGER_CLIENT_EVENT_INTERNAL: client 1 is not the same as the target 65536. This happens when the oldId from the playerJoining event is used. Use source instead.
+[ citizen-server-impl] server thread hitch warning: timer interval of 416 milliseconds
+[ citizen-server-impl] Server list query returned an error: Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Path '', line 0, position 0.
+[     script:it-drugs] [it-drugs] [INFO] Getting position for dealer ID	seed_dealer
+[     script:it-drugs] [it-drugs] [INFO] Dealer Position	vec4(-49.424400, 1903.671387, 194.361298, 95.721298)
+[   script:rhd_garage] [rhd_garage] [INFO] Register new cache for DJotaBR
+[     script:qbx_core] [qbx_core] [INFO] DJotaBR (Citizen ID: QH14C56U) has successfully loaded!
+[script:lunar_fishing] getLevel getLevel getLevel	1	 fishing skills:	0
+[     script:qbx_core] [MRI Vehicles] Veículos carregados com sucesso.
+[     script:qbx_core] Lista atualizada pelo qbx_core
+[ script:ox_inventory] [ox_inventory] [INFO] Saving 1 inventories to the database
+[ script:ox_inventory] [ox_inventory] [INFO] Saved 1/1 players (10.7961 ms)
